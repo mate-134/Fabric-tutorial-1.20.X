@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "tutorialmod:tomato"
+    },
+    {
+      "item": "tutorialmod:cheese"
+    },
+    {
+      "item": "tutorialmod:salami"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:sandwich"
+  }
+}
