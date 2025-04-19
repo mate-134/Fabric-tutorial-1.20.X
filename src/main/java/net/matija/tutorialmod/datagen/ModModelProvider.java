@@ -75,5 +75,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_BOOTS);
 
+        itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
+
     }
 }

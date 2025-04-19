@@ -7,6 +7,7 @@ import net.matija.tutorialmod.TutorialMod;
 import net.matija.tutorialmod.block.ModBlocks;
 import net.matija.tutorialmod.item.custom.MetalDetectorItem;
 import net.matija.tutorialmod.item.custom.ModArmorItem;
+import net.matija.tutorialmod.sound.ModSounds;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -78,6 +79,10 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
     public static final Item CORN_SEEDS = registerItem("corn_seeds",
             new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
+
+    //discs
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new MusicDiscItem(7, ModSounds.BAR_BRAWL, new FabricItemSettings().maxCount(1), 122));
 
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){

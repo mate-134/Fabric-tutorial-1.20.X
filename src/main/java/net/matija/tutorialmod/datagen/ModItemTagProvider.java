@@ -21,5 +21,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.RUBY_LEGGINGS)
                 .add(ModItems.RUBY_BOOTS);
 
+        // for a music disc to work
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS).add(ModItems.BAR_BRAWL_MUSIC_DISC);
+        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.BAR_BRAWL_MUSIC_DISC);
     }
 }
