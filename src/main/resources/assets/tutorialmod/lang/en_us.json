@@ -57,5 +57,7 @@
 
   "block.tutorialmod.dahlia": "Dahlia",
 
+  "sounds.tutorialmod.metal_detector_found_ore": "Metal Detector Jingle",
+
   "entity.tutorialmod.villager.sound_master": "Soundmaster"
 }

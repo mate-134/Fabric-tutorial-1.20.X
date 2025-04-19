@@ -1,5 +1,6 @@
 package net.matija.tutorialmod.item.custom;
 
+import net.matija.tutorialmod.sound.ModSounds;
 import net.matija.tutorialmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -8,6 +9,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
@@ -36,6 +38,10 @@ public class MetalDetectorItem extends Item {
                 if(isValuableBlock(state)){
                     outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
                     foundBlock = true;
+
+                    //play the sound
+                    context.getWorld().playSound(null, positionClicked, ModSounds.METAL_DETECTOR_FOUND_ORE,
+                            SoundCategory.BLOCKS, 1f, 1f);
 
                     break;
                 }

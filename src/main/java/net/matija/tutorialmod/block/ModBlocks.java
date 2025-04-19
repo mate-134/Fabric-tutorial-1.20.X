@@ -6,6 +6,7 @@ import net.matija.tutorialmod.TutorialMod;
 import net.matija.tutorialmod.block.custom.CornCropBlock;
 import net.matija.tutorialmod.block.custom.SoundBlock;
 import net.matija.tutorialmod.block.custom.TomatoCropBlock;
+import net.matija.tutorialmod.sound.ModSounds;
 import net.minecraft.block.*;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
@@ -22,6 +23,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     //ores
     public static final Block RUBY_ORE = registerBlock("ruby_ore",      // braking time          amount of xp
@@ -32,9 +35,6 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).strength(1.5f), UniformIntProvider.create(3,5)));
     public static final Block END_RUBY_ORE = registerBlock("end_ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(3f), UniformIntProvider.create(4,7)));
-
-    public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     //special
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
