@@ -2,8 +2,11 @@ package net.matija.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.matija.tutorialmod.block.ModBlocks;
+import net.matija.tutorialmod.entity.ModEntities;
+import net.matija.tutorialmod.entity.custom.PorcupineEntity;
 import net.matija.tutorialmod.item.ModItemGroups;
 import net.matija.tutorialmod.item.ModItems;
 import net.matija.tutorialmod.sound.ModSounds;
@@ -19,24 +22,18 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 
+		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		//for fuel items
-		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
-
-		//vanilla loot table modifications
 		ModLootTableModifiers.modifyLootTables();
-
-		//register trades
 		ModCustomTrades.registerCustomTrades();
 
-		//registering villagers
 		ModVillagers.registerVillagers();
-
-		//registering sounds
 		ModSounds.registerSounds();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
+		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 	}
 }
