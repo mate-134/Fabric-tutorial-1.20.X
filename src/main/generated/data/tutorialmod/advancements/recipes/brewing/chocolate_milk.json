@@ -46,10 +46,10 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_mug",
       "has_cocoa_beans",
-      "has_milk_bucket",
-      "has_the_recipe"
+      "has_milk_bucket"
     ]
   ],
   "rewards": {

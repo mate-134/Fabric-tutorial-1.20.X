@@ -1,10 +1,10 @@
-// 1.20.1	2025-04-19T22:06:47.9943454	Tutorial Mod/Tags for minecraft:block
+// 1.20.2	2025-04-20T08:15:57.5770051	Tutorial Mod/Tags for minecraft:block
 c0c21dd37bc5740a0fd4b8d23b548084594c6c2e data\fabric\tags\blocks\needs_tool_level_5.json
 2c2950d0c33850440a6a78f67ec70701ac9e7939 data\minecraft\tags\blocks\walls.json
 6446ed28cb4ab3f15e9b978234672715ad219d65 data\minecraft\tags\blocks\needs_diamond_tool.json
 557851e313abb0cef1734845a356572f1548a2b4 data\minecraft\tags\blocks\fence_gates.json
-6d699dbc87aadf988de9d94a6aaada632057338b data\minecraft\tags\blocks\fences.json
 07f52b54acb7f800ec705e470e87eb4e8a43c9ee data\minecraft\tags\blocks\needs_iron_tool.json
+6d699dbc87aadf988de9d94a6aaada632057338b data\minecraft\tags\blocks\fences.json
 f9b2a111bfe50209f9ab8fc00dfc6cfaf36b1291 data\fabric\tags\blocks\needs_tool_level_4.json
 54b56047a8aa48acbedf852a9b30d1fd3c4f972b data\minecraft\tags\blocks\mineable\pickaxe.json
 5ffc428ff89b29b63739a04f90e45f68e7f7cb68 data\tutorialmod\tags\blocks\metal_detector_detectable_blocks.json

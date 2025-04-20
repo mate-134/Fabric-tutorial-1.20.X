@@ -51,14 +51,14 @@ public class ModLootTableModifiers {
 
         //sus sand because it's made in sa stupid way
         LootTableEvents.REPLACE.register((resourceManager, lootManager, identifier, lootTable, lootTableSource) -> {
-            if(SUSPICIOUS_SAND_ID.equals(identifier)) {
-                List<LootPoolEntry> entries = new ArrayList<>(Arrays.asList(lootTable.pools[0].entries));
-                entries.add(ItemEntry.builder(ModItems.METAL_DETECTOR).build());
-                entries.add(ItemEntry.builder(ModItems.COAL_BRIQUETTE).build());
+            // if(SUSPICIOUS_SAND_ID.equals(identifier)) {
+            //     List<LootPoolEntry> entries = new ArrayList<>(Arrays.asList(lootTable.pools[0].entries));
+            //     entries.add(ItemEntry.builder(ModItems.METAL_DETECTOR).build());
+            //     entries.add(ItemEntry.builder(ModItems.COAL_BRIQUETTE).build());
 
-                LootPool.Builder pool = LootPool.builder().with(entries);
-                return LootTable.builder().pool(pool).build();
-            }
+            //     LootPool.Builder pool = LootPool.builder().with(entries);
+            //     return LootTable.builder().pool(pool).build();
+            // }
 
             return null;
         });
