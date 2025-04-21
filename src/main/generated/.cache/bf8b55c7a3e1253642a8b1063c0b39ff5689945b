@@ -1,4 +1,4 @@
-// 1.20.2	2025-04-20T18:31:02.9724189	Tutorial Mod/Model Definitions
+// 1.20.2	2025-04-21T20:19:26.0170079	Tutorial Mod/Model Definitions
 430890fbcf2db7c6b7b703b18ca062d9b174ed64 assets\tutorialmod\models\item\coal_briquette.json
 052ea90c57cb2bf382cf7d3f9bc57b20ee4ea416 assets\tutorialmod\models\item\ruby_button.json
 8444238f04261c56864325fc5edb2ff814c1ea77 assets\tutorialmod\models\block\corn_crop_stage8.json
@@ -20,8 +20,8 @@ bcb7c716cde78b4346bfcf35fab40cba6a7b4f11 assets\tutorialmod\models\item\ruby_boo
 f643f34a95274bef6bc781b8ba22b1969ff252e5 assets\tutorialmod\models\item\ruby_helmet_lapis_trim.json
 8a6a11b0ab43cad6ba08918b85e20a987ebd08f3 assets\tutorialmod\models\item\ruby_helmet.json
 e507fde3a8446786ecee1ebf7fe480c22e0b39b8 assets\tutorialmod\models\item\cheese.json
-3099a76a0bbb2a689862d322c8ea1973b2d837c0 assets\tutorialmod\models\item\ruby_pressure_plate.json
 eda40d759fe364655011dcece6a5e8d31d2360bb assets\tutorialmod\models\block\ruby_fence_gate_wall_open.json
+3099a76a0bbb2a689862d322c8ea1973b2d837c0 assets\tutorialmod\models\item\ruby_pressure_plate.json
 6e6bdd498115cf24d2c74667b608b6cebfb12a37 assets\tutorialmod\blockstates\ruby_stairs.json
 9153bba5c81235e9d62cd58ae1fb8a7084beb589 assets\tutorialmod\models\block\ruby_slab.json
 c0b0701701bb884e5b960972b7a75ff2a91f5632 assets\tutorialmod\models\item\ruby_leggings_amethyst_trim.json

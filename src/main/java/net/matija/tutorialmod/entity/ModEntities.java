@@ -16,5 +16,8 @@ public class ModEntities {
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, PorcupineEntity::new)
                     .dimensions(EntityDimensions.fixed(1f, 1f)).build());
 
+    public static void registerModEntities() {
+        TutorialMod.LOGGER.info("Registering Mod Entities for " + TutorialMod.MOD_ID);
+    }
 }
 
